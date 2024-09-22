@@ -6,4 +6,8 @@ class Program
     {
         Console.WriteLine("Hello Prep1 World!");
     }
+    {
+        Console.WriteLine("what is your first name?");
+        Console.ReadLine();
+    
 }

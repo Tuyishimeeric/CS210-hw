@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Enter your course score: ");
         int score = int.Parse(Console.ReadLine());
