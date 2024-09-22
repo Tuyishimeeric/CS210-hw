@@ -3,11 +3,17 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Prep1 World!");
-    }
+    
     {
         Console.WriteLine("what is your first name?");
-        Console.ReadLine();
+        string firstname =Console.ReadLine();
+
+        Console.Write("what is your second name?");
+        string secondname =Console.ReadLine();
+
+
+        Console.WriteLine($"your name is {firstname} {secondname}");
+    }
+
     
 }

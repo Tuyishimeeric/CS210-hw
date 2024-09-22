@@ -11,24 +11,24 @@ class Program
         {
             grade = "A";
         }
-        else if(score >= 80);
+         else if(score >= 80);
         {
             grade = "B";
         }
-        else if(grade>=70);
+         else if(score >=70);
         {
             grade = "C";
         }
-        else if(score >=60);
+         else if(score >=60);
         {
             grade = "D";
         
         }
-        else
+         else
         {
         grade = "F";
         }
-        Console.WriteLine($"your grade is: (grade)");
+        Console.WriteLine($"your grade is: {grade}");
     }
 
 }
